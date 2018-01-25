@@ -77,8 +77,8 @@ class Tokenizer:
 
         return result
 
-    def text_to_idx(self, tokenized):
-        return [self.vocab_idx[t] for t in tokenized if t in self.vocab_idx]
+
+    # test test
 
     def transform(self, texts):
         n = len(texts)
